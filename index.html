@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Modernistyczne Projektowanie i Programowanie</title>
+    <meta name="description" content="Kreatywny programista wyspecjalizowany w budowaniu nowoczesnych doświadczeń internetowych o czystych układach, wciągających mikro-interakcjach i wydajnym kodzie.">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Icons (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-title-pl="Portfolio | Modernistyczne Projektowanie i Programowanie" data-title-en="Portfolio | Modernist Design &amp; Development" data-bio-pl="Kreatywny programista wyspecjalizowany w budowaniu nowoczesnych doświadczeń internetowych o czystych układach, wciągających mikro-interakcjach i wydajnym kodzie." data-bio-en="A creative developer specialized in building modern web experiences with clean layouts, immersive micro-interactions, and high-performance code.">
+
+    <!-- Decorative Glow Background -->
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+
+    <!-- Header Navigation -->
+    <header class="glass">
+        <a href="#" class="logo">Jakub Ślęczkowski</a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#hero">
+                        <span class="lang-pl">Start</span>
+                        <span class="lang-en">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <span class="lang-pl">O mnie</span>
+                        <span class="lang-en">About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        <span class="lang-pl">Realizacje</span>
+                        <span class="lang-en">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <span class="lang-pl">Kontakt</span>
+                        <span class="lang-en">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div style="display: flex; gap: 12px; align-items: center;">
+            <!-- Language Toggle (Client-side trigger) -->
+            <div class="lang-switcher" style="display: flex; gap: 8px; font-size: 13px; font-weight: 700; margin-right: 12px;">
+                <button class="lang-btn pl">PL</button>
+                <span style="color: var(--border-color);">|</span>
+                <button class="lang-btn en">EN</button>
+            </div>
+            <a href="#contact" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13px;">
+                <span class="lang-pl">Napisz do mnie</span>
+                <span class="lang-en">Contact Me</span>
+            </a>
+                    </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero container">
+        <div class="hero-grid">
+            <div class="hero-content fade-up">
+                <span class="hero-tag">
+                    <span class="lang-pl">Projektant &amp; Programista</span>
+                    <span class="lang-en">Designer &amp; Developer</span>
+                </span>
+                <h1 class="hero-title">
+                    <span class="lang-pl">Tworzę <span class="gradient-text">funkcjonalne</span> i modernistyczne strony.</span>
+                    <span class="lang-en">I build <span class="gradient-text">functional</span> and modernist websites.</span>
+                </h1>
+                <p class="hero-desc">
+                    <span class="lang-pl">Kreatywny programista wyspecjalizowany w budowaniu nowoczesnych doświadczeń internetowych o czystych układach, wciągających mikro-interakcjach i wydajnym kodzie.</span>
+                    <span class="lang-en">A creative developer specialized in building modern web experiences with clean layouts, immersive micro-interactions, and high-performance code.</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span class="lang-pl">Zobacz moje prace <i class="fa-solid fa-arrow-right"></i></span>
+                        <span class="lang-en">View My Work <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <span class="lang-pl">Więcej o mnie</span>
+                        <span class="lang-en">More About Me</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual fade-up" style="transition-delay: 0.2s;">
+                <div class="visual-sphere"></div>
+                <div class="visual-glass-card glass">
+                    <div class="visual-code-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <h4 style="font-size: 14px; font-weight:600; margin-bottom: 4px;">Modern UI/UX</h4>
+                        <p style="font-size: 11px; line-height: 1.4;">PHP, JSON Flat-File, Vanilla CSS & Glassmorphism.</p>
+                    </div>
+                    <div class="visual-card-text">
+                        &lt;code /&gt;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section container">
+        <div class="section-header fade-up">
+            <span class="section-subtitle">
+                <span class="lang-pl">Poznajmy się</span>
+                <span class="lang-en">Get To Know Me</span>
+            </span>
+            <h2 class="section-title">
+                <span class="lang-pl">Architektura kodu &amp; Minimalizm wizualny</span>
+                <span class="lang-en">Code Architecture &amp; Visual Minimalism</span>
+            </h2>
+        </div>
+        
+        <div class="about-grid">
+            <div class="about-bio fade-up">
+                <p>
+                    <span class="lang-pl">Mieszkam w Warszawie i łączę minimalistyczny design UI z solidną inżynierią backendową. Wierzę, że oprogramowanie powinno nie tylko działać bezbłędnie, ale także wyglądać oszałamiająco i być całkowicie płynne pod palcami. Posiadając ponad 5 lat doświadczenia w PHP, Javascript oraz systemach responsywnych, zamieniam skomplikowane projekty w czyste, cyfrowe rzeczywistości.</span>
+                    <span class="lang-en">Based in Warsaw, I combine minimalist UI design with robust backend engineering. I believe software should not only work flawlessly, but look stunning and feel completely fluid under the fingers. With over 5 years of experience in PHP, Javascript, and responsive design systems, I turn complex concepts into clean digital realities.</span>
+                </p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card glass">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">
+                            <span class="lang-pl">Ukończonych projektów</span>
+                            <span class="lang-en">Completed Projects</span>
+                        </div>
+                    </div>
+                    <div class="stat-card glass">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">
+                            <span class="lang-pl">Lat doświadczenia</span>
+                            <span class="lang-en">Years of Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-list fade-up" style="transition-delay: 0.2s;">
+                <h3 style="font-family: var(--font-heading); margin-bottom: 20px; font-size: 20px;">
+                    <span class="lang-pl">Moje kompetencje</span>
+                    <span class="lang-en">My Skills</span>
+                </h3>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="lang-pl">Projektowanie backendu (PHP / JSON)</span>
+                        <span class="lang-en">Back-end Development (PHP / JSON)</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-progress="90%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="lang-pl">Projektowanie frontendu (CSS Grid, Flexbox, JS)</span>
+                        <span class="lang-en">Front-end Design (CSS Grid, Flexbox, JS)</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-progress="85%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="lang-pl">Projektowanie UI/UX (Estetyka)</span>
+                        <span class="lang-en">UI/UX Design (Aesthetics)</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-progress="80%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="lang-pl">Integracje API / Systemy CMS</span>
+                        <span class="lang-en">API Integrations / CMS Systems</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-progress="95%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section container">
+        <div class="section-header fade-up">
+            <span class="section-subtitle">
+                <span class="lang-pl">Portfolio</span>
+                <span class="lang-en">Portfolio</span>
+            </span>
+            <h2 class="section-title">
+                <span class="lang-pl">Ostatnie realizacje</span>
+                <span class="lang-en">Recent Realizations</span>
+            </h2>
+        </div>
+
+                    <!-- Categories Filter -->
+            <div class="filters fade-up">
+                <button class="filter-btn active" data-filter="all">
+                    <span class="lang-pl">Wszystkie</span>
+                    <span class="lang-en">All</span>
+                </button>
+                                    <button class="filter-btn" data-filter="web">
+                        <span class="lang-pl">Web</span>
+                        <span class="lang-en">Web</span>
+                    </button>
+                            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid fade-up" style="transition-delay: 0.15s;">
+                                    <div class="project-card glass" data-category="web" 
+                          data-id="4"
+                          data-title-pl="SOLLS.pl – Systemy Oświetlenia LED"
+                          data-title-en="SOLLS.pl – LED Lighting Systems"
+                          data-desc-pl="Projekt i wdrożenie nowoczesnego serwisu korporacyjnego dla firmy SOLLS, lidera w obszarze profesjonalnych systemów oświetlenia LED dla przemysłu, obiektów sportowych i infrastruktury drogowej. Witryna oferuje modernistyczny, czytelny katalog produktów, zaawansowane moduły wyliczeń oszczędności energii, interaktywne portfolio zrealizowanych inwestycji oraz formularz audytowy. Całość oparta o autorskie rozwiązania optymalizacji czasu ładowania i pełną responsywność."
+                          data-desc-en="Design and implementation of a modern corporate website for SOLLS, a leader in professional LED lighting systems for industry, sports facilities, and road infrastructure. The site features a modernist, easy-to-read product catalog, advanced energy savings calculation modules, an interactive portfolio of completed investments, and an audit request form. The entire system is built on custom page load speed optimization and full mobile responsiveness."
+                          data-cat-pl="Web"
+                          data-cat-en="Web"
+                          data-tags="HTML5, Vanilla CSS, JS, PHP, UI/UX"
+                          data-image="uploads/project_6a1d5d390381a9.59080633.png"
+                          data-url="https://solls.pl">
+                        <div class="project-img-wrapper">
+                            <img src="uploads/project_6a1d5d390381a9.59080633.png" alt="SOLLS.pl – Systemy Oświetlenia LED" class="project-img" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-cat">
+                                    <span class="lang-pl">Web</span>
+                                    <span class="lang-en">Web</span>
+                                </span>
+                            </div>
+                            <h3 class="project-card-title">
+                                <span class="lang-pl">SOLLS.pl – Systemy Oświetlenia LED</span>
+                                <span class="lang-en">SOLLS.pl – LED Lighting Systems</span>
+                            </h3>
+                            <p class="project-desc-short lang-pl">Projekt i wdrożenie nowoczesnego serwisu korporacyjnego dla firmy SOLLS, lidera w obszarze profesjonalnych systemów oświetlenia LED dla przemysłu, obiektów sportowych i infrastruktury drogowej. Witryna oferuje modernistyczny, czytelny katalog produktów, zaawansowane moduły wyliczeń oszczędności energii, interaktywne portfolio zrealizowanych inwestycji oraz formularz audytowy. Całość oparta o autorskie rozwiązania optymalizacji czasu ładowania i pełną responsywność.</p>
+                            <p class="project-desc-short lang-en">Design and implementation of a modern corporate website for SOLLS, a leader in professional LED lighting systems for industry, sports facilities, and road infrastructure. The site features a modernist, easy-to-read product catalog, advanced energy savings calculation modules, an interactive portfolio of completed investments, and an audit request form. The entire system is built on custom page load speed optimization and full mobile responsiveness.</p>
+                            <div class="project-tags">
+                                                                    <span class="tag">HTML5</span>
+                                                                    <span class="tag">Vanilla CSS</span>
+                                                                    <span class="tag">JS</span>
+                                                                    <span class="tag">PHP</span>
+                                                                    <span class="tag">UI/UX</span>
+                                                            </div>
+                        </div>
+                    </div>
+                            </div>
+            </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section container">
+        <div class="section-header fade-up">
+            <span class="section-subtitle">
+                <span class="lang-pl">Kontakt</span>
+                <span class="lang-en">Contact</span>
+            </span>
+            <h2 class="section-title">
+                <span class="lang-pl">Stwórzmy coś razem</span>
+                <span class="lang-en">Let&#039;s build something together</span>
+            </h2>
+        </div>
+        
+        <div class="contact-grid">
+            <div class="contact-info fade-up">
+                <p>
+                    <span class="lang-pl">Masz pomysł na projekt lub chcesz porozmawiać o współpracy? Skontaktuj się ze mną bezpośrednio.</span>
+                    <span class="lang-en">Have a project idea or want to discuss collaboration? Get in touch directly.</span>
+                </p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon glass"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value"><a href="mailto:k.rumiany@gmail.com">k.rumiany@gmail.com</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                                            <a href="https://github.com" target="_blank" class="social-icon glass" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                                    </div>
+            </div>
+            
+            <div class="contact-form-wrapper fade-up" style="transition-delay: 0.2s;">
+                <form id="contactForm" class="glass" style="padding: 40px; border-radius: var(--radius-md); display: flex; flex-direction: column;" method="POST">
+                    <div id="formFeedback" style="display: none; padding: 12px; border-radius: var(--radius-sm); margin-bottom: 20px; font-size: 14px;"></div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" class="form-input" required 
+                               data-placeholder-pl="Twoje imię"
+                               data-placeholder-en="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-input" required
+                               data-placeholder-pl="Twój adres email"
+                               data-placeholder-en="Your Email Address">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-input" required
+                                  data-placeholder-pl="Treść wiadomości..."
+                                  data-placeholder-en="Message content..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="align-self: flex-start; gap: 8px;" 
+                            data-sending-pl="Wysyłanie..." 
+                            data-sending-en="Sending..." 
+                            data-success-pl="Dziękuję {name}! Twoja wiadomość została pomyślnie wysłana. Odpowiem najszybciej jak to możliwe." 
+                            data-success-en="Thank you {name}! Your message was sent successfully. I will respond as soon as possible.">
+                        <span class="lang-pl">Wyślij wiadomość <i class="fa-solid fa-paper-plane"></i></span>
+                        <span class="lang-en">Send Message <i class="fa-solid fa-paper-plane"></i></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>
+                                <span class="lang-pl">&copy; 2026 Jakub Ślęczkowski. Wszystkie prawa zastrzeżone. Zaprojektowane modernistycznie.</span>
+                <span class="lang-en">&copy; 2026 Jakub Ślęczkowski. All rights reserved. Designed modernistically.</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Details Modal Overlay -->
+    <div id="projectModal" class="modal-overlay">
+        <div class="modal-card glass">
+            <button class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-img-wrapper">
+                <img src="" alt="" class="modal-img" id="modalImg">
+            </div>
+            <div class="modal-body">
+                <span class="project-cat" id="modalCat" style="font-size: 12px; margin-bottom: -10px;">Category</span>
+                <h2 class="modal-title" id="modalTitle">Project Title</h2>
+                <div class="modal-info-row">
+                    <div class="project-tags" id="modalTags">
+                        <!-- dynamic tags -->
+                    </div>
+                    <a href="" target="_blank" class="btn btn-primary" id="modalUrl" style="padding: 8px 16px; font-size: 13px;">
+                        <span class="lang-pl">Odwiedź stronę <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        <span class="lang-en">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </a>
+                </div>
+                <p class="modal-desc" id="modalDesc">
+                    Project long description...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
